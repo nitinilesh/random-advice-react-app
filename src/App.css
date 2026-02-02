@@ -1,0 +1,21 @@
+.advice {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: teal;
+}
+button,
+.count {
+  all: unset; /* 🔥 removes browser defaults */
+  box-sizing: border-box;
+  border-radius: 10cm;
+  background-color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bold;
+  display: inline-flex; /* better vertical alignment */
+  align-items: center;
+  justify-content: center;
+  padding: 3px 6px;
+  margin-right: 3px;
+  cursor: pointer;
+}
